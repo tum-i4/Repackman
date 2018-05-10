@@ -1,4 +1,4 @@
-# Repackman
+# ![alt text](https://github.com/tum-i22/Repackman/blob/master/imgs/repackman_icon.png "Repackman")Repackman
 
 Repackaging is a technique adopted by attackers to generate fake, malicious versions of legitimate Android apps, which undermines users' trust in the Android ecosystem. Unfortunately, the process of devising anti-repackaging techniques to detect and prevent repackaging is hindered by the lack of repackaged versions of legitimate apps. We implemented Repackman, a tool to automatically repackage Android
 apps with arbitrary payloads.
@@ -12,7 +12,7 @@ The current implementation depends on the following tools:
 * [sqlite3](https://docs.python.org/2/library/sqlite3.html): Python DB-API 2.0 interface for SQLite databases
 
 ## Repackaging Process
-Repackman adopts the following process (summarized in figure 1) to graft Android apps with arbitrary payloads:
+Repackman adopts the following process (summarized in [figure 1](https://github.com/tum-i22/Repackman/blob/master/figures/overview_vertical.pdf)) to graft Android apps with arbitrary payloads:
 
 1. Given the path to the APK archive to repackage, the first step in the repackaging process is to extract the archive and disassemble its classes.dex file using Apktool. This step also includes analyzing the app to retrieve details about its components and their internal structures.
 2. We use this information in the second step to identify possible locations to inject the rider code. Such insertion locations are dictated by the user via a command-line argument called `--deploymentmethod`. Users can choose the functionality of the rider code (i.e., payloads), and whether it should be executed only upon the realization of certain conditions (i.e., triggers) in this step.
