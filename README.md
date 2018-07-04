@@ -3,9 +3,11 @@
 Repackaging is a technique adopted by attackers to generate fake, malicious versions of legitimate Android apps, which undermines users' trust in the Android ecosystem. Unfortunately, the process of devising anti-repackaging techniques to detect and prevent repackaging is hindered by the lack of repackaged versions of legitimate apps. We implemented Repackman, a tool to automatically repackage Android
 apps with arbitrary payloads.
 
-**Access to Source Code**: Given the ability of Repackman to generate malicious versions of legitimate apps, we furnish the source code of the tool *only upon request* from legitimate, verifiable industrial/academic institutions. Please write us an email if you wish to access the source code of Repackman from your business or academic email address.
+## Access to Source Code 
+Given the ability of Repackman to generate malicious versions of legitimate apps, we furnish the source code of the tool **only upon request** from legitimate, verifiable industrial/academic institutions. Please write us an email if you wish to access the source code of Repackman from your business or academic email address.
 
-A **video demonstration** of the Repackman and its repackaging process can be found [here](https://www.youtube.com/watch?v=I3QvvKxJGX8) on YouTube.
+## Demo
+A **video demonstration** of Repackman and its repackaging process can be found [here](https://www.youtube.com/watch?v=I3QvvKxJGX8) on YouTube.
 
 ## Dependencies
 The current implementation depends on the following tools:
