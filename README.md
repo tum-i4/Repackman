@@ -168,7 +168,14 @@ Repackage the app "~/com.example.myapp.apk" with the payload that has the ID 3 a
 For more information about the design and implementation of the tool, please refer to the paper cited below. Kindly consider citing our paper, if you find it useful in your research.
 
 ```
-No citation yet
+@inproceedings{salem+2018,
+  title={Repackman: A Tool for Automatic Repackaging of Android Apps},
+  author={Salem, Aleieldin and Paulus, Franziska and Pretschner, Alexander},
+  booktitle={Proceedings of the 1st International Workshop on Advances in Mobile App Analysis (A-Mobile'18)},
+  pages={TBD},
+  year={2018},
+  organization={ACM}
+}
 ```
 
 We are constantly updating the source code and its corresponding documentation. However, should you have any inquiries about installing and using the code, please contact us:
